@@ -1,7 +1,7 @@
 export class BaseInstrument {
   public output: GainNode;
   public isMuted: boolean;
-  private _gain: number = .75;
+  private _gain = .75;
 
   constructor(protected context: AudioContext) {
     this.output = this.context.createGain();
