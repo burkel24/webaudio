@@ -1,4 +1,4 @@
-export class BaseInstrument {
+export class BaseVolueNode {
   public output: GainNode;
   public isMuted: boolean;
   private _gain = .75;

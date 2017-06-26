@@ -1,6 +1,6 @@
-import { BaseInstrument } from './baseInstrument';
+import { Instrument } from './instrument';
 
-export class SimpleSynth extends BaseInstrument {
+export class SimpleSynth extends Instrument {
   private source: OscillatorNode;
 
   constructor(ctx: AudioContext) {
